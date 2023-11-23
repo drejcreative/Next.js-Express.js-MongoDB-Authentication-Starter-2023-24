@@ -1,0 +1,5 @@
+dump/*
+dump/userAuth/*
+backend/node_modules
+backend/coverage
+backend/.env
