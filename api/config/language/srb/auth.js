@@ -1,0 +1,33 @@
+export const AUTH = {
+  authB01: 'Korisnik sa ovom',
+  authB02: 'email adresom ne postoji!',
+  authB03: 'Link za resetovanje šifre',
+  authB04: 'Email za resetovanje vaše šifre je poslat na',
+  authB05: 'Link za resetovanje će isteći za 15 minuta!',
+  authB06: 'Problem sa promenom korisničkih podataka',
+  authB07: 'Nešto nije u redu, probajte kasnije!',
+
+  authB08: 'Nema validnog tokena',
+  authB09: 'Loš ili istekao Token, probajte kasnije!',
+  authB10: 'Šifra je uspešno promenjena, možete se ulogovati',
+  authB11: 'Ne možemo da promenimo šifru, molimo vas probajte kasnije',
+  authB12: 'Ne možemo da nađemo korisnika, molimo vas probajte kasnije',
+
+  authB13: 'Problem u dobijanju korisničkih podataka',
+  authB14: 'Korisnik ne postoji',
+  authB15: 'Pogrešna šifra',
+  authB16: 'Problem pri logovanju. Molimo vas probajte kasnije!',
+  authB17: 'Korisnik sa',
+  authB18: 'email adresom već postoji!',
+  authB19: 'Link za aktivaciju naloga',
+  authB20: 'Email je poslat na vašu email adresu',
+  authB21: 'Molimo vs da verifikujete vašu email adresu',
+  authB22: 'Link je istekao, molimo vas ulogujte se ponovo',
+  authB23: 'Token je vec iskorišćen!',
+  authB24: 'Loš Token',
+  authB25: 'Korisnik sa datom email adresom već postoji!',
+  authB26: 'Email nije pronađen!',
+
+  authB27: 'Vaša poruka je prosleđena našem timu',
+  authB28: 'Primili smo vašu poruku, možete očekivati odgovor u najkraćem mogućem roku',
+}

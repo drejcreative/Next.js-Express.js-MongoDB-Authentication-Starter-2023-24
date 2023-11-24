@@ -1,0 +1,62 @@
+.inputWrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  position: relative;
+
+  &.error {
+    input,
+    textarea {
+      border: 1px solid var(--error);
+    }
+  }
+
+  span {
+    margin-bottom: 5px;
+    color: var(--border);
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--border);
+    background-color: transparent;
+    background: no-repeat;
+    color: var(--text);
+    &::placeholder {
+      color: var(--border);
+    }
+    &:disabled {
+      background-color: var(--background);
+    }
+  }
+
+  svg {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    cursor: pointer;
+  }
+
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--border);
+    background-color: transparent;
+    background: no-repeat;
+    resize: vertical;
+    max-height: 300px;
+  }
+  .errorText {
+    margin-top: 5px;
+    color: var(--error);
+    font-size: 0.8rem;
+  }
+  .warningText {
+    margin-top: 5px;
+    color: var(--contrast);
+    font-size: 0.8rem;
+  }
+}

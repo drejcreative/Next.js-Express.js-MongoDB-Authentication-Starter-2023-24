@@ -1,0 +1,33 @@
+{
+  "language": "German",
+  "signIn": "Anmelden",
+  "signUp": "Benutzerkonto erstellen",
+  "goToSignup": "Anmeldung",
+  "goToProtected": "Geschützt",
+  "email": "Email",
+  "password": "Passwort",
+  "submit": "Einreichen",
+  "forgotPassword": "Passwort vergessen",
+  "resetEmailText": "Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts",
+  "sendPasswordLink": "Link zum Zurücksetzen des Passworts senden",
+  "newPassword": "Neues Passwort",
+  "retypePassword": "Passwort wiederholen",
+  "resetPassword": "Setze dein Passwort zurück",
+  "passwordDescription": "Das Passwort muss mindestens 6 Zeichen lang sein. Es ist gut, wenn Sie große und kleine Buchstaben, Zahlen und Sonderzeichen verwenden können.",
+  "goToLogin": "Anmelden",
+  "short": "Zu kurz!",
+  "name": "Dein Name",
+  "surname": "Dein Familienname",
+  "activateAccount": "Aktiviere deinen Account",
+  "changeTheme": "Thema ändern",
+  "goToAdmin": "ADMIN",
+  "validation": {
+    "email": "Geben Sie eine gültige E-Mail-Adresse ein",
+    "emailRequired": "E-Mail ist erforderlich",
+    "lastNameRequired": "Nachname ist erforderlich",
+    "password": "Passwort eingeben",
+    "firstNameRequired": "Name ist erforderlich",
+    "confirmPasswordError": "Passwörter stimmen nicht überein",
+    "termsOfUse": "*Sie müssen die Allgemeinen Geschäftsbedingungen akzeptieren"
+  }
+}

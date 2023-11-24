@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+.error {
+  margin-bottom: 16px;
+  margin-top: 5px;
+  color: var(--error);
+  font-size: 0.8rem;
+  &.full {
+    padding: 10px;
+    margin: 20px;
+    color: var(--error);
+    border: 1px solid var(--error);
+  }
+  &.strong {
+    padding: 10px;
+    margin: 20px;
+    color: var(--light);
+    background: var(--error);
+    border: 1px solid var(--error);
+  }
+  &.noMargin {
+    margin-top: 16px;
+    margin: 0px;
+  }
+}
+
+.warning {
+  margin-bottom: 16px;
+  margin-top: 5px;
+  color: var(--contrast);
+  font-size: 0.8rem;
+  background: #ffeec5;
+  &.full {
+    padding: 20px;
+    margin: 20px;
+    font-size: 1rem;
+    color: var(--text);
+  }
+}
+
+.sucess {
+  margin-bottom: 16px;
+  margin-top: 5px;
+  color: var(--light);
+  font-size: 0.8rem;
+  background: var(--main);
+  &.full {
+    padding: 20px;
+    margin: 20px;
+    font-size: 1rem;
+    color: var(--light);
+  }
+}
+
+// Scrollbar
+body::-webkit-scrollbar,
+div::-webkit-scrollbar {
+  width: 0.4em;
+}
+body::-webkit-scrollbar-track,
+div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+body::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb {
+  background-color: var(--main);
+  outline: 1px solid slategrey;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--main) rgba(0, 0, 0, 0.3);
+}
+
+.link {
+  cursor: pointer;
+}

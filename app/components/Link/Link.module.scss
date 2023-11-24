@@ -1,0 +1,13 @@
+.link {
+  cursor: pointer;
+  color: var(--secoundary);
+  &:hover {
+    color: var(--main);
+    svg {
+      fill: var(--main);
+    }
+  }
+  .icon {
+    margin-right: 10px;
+  }
+}

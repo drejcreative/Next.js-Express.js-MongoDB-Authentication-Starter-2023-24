@@ -1,0 +1,33 @@
+{
+  "language": "English",
+  "signIn": "Sign in",
+  "signUp": "Sign up",
+  "goToSignup": "Signup",
+  "goToProtected": "Protected",
+  "email": "Email",
+  "password": "Password",
+  "submit": "Submit",
+  "forgotPassword": "Forgot password",
+  "resetEmailText": "Enter your email and we will send you a link to reset your password",
+  "sendPasswordLink": "Send Reset password link",
+  "newPassword": "New Password",
+  "retypePassword": "Retype password",
+  "resetPassword": "Reset your password",
+  "passwordDescription": "Password need to have at least 6 characters. It will be good if you can use big and small leaters, numbers and special characters.",
+  "goToLogin": "Login",
+  "short": "Too Short!",
+  "name": "Your Name",
+  "surname": "Your surname",
+  "activateAccount": "Activate your accout",
+  "changeTheme": "Change theme",
+  "goToAdmin": "ADMIN",
+  "validation": {
+    "email": "Enter valid email",
+    "emailRequired": "Email is required",
+    "lastNameRequired": "Last name is required",
+    "password": "Enter Password",
+    "firstNameRequired": "Name is required",
+    "confirmPasswordError": "Passwords do not match",
+    "termsOfUse": "*You must accept Terms and Conditions"
+  }
+}

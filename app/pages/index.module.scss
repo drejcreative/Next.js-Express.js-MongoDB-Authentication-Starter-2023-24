@@ -1,0 +1,34 @@
+.main {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    .link {
+      cursor: pointer;
+      margin-right: 10px;
+      &:hover {
+        border-bottom: 1px solid var(--border);
+      }
+    }
+  }
+  main {
+    position: relative;
+    h1 {
+      padding: 20px;
+      margin-bottom: 10px;
+      font-size: 3rem;
+      position: absolute;
+    }
+    img {
+      width: 100%;
+      height: calc(100vh - 62px);
+      object-fit: cover;
+    }
+  }
+}

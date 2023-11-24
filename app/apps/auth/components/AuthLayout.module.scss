@@ -1,0 +1,81 @@
+.auth {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  .left {
+    width: 70%;
+    background-image: linear-gradient(to left, rgba(0, 42, 50, 0.1), var(--background)),
+      url("https://source.unsplash.com/random/800x600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    h3 {
+      color: var(--light);
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+    img {
+      width: 180px;
+      cursor: pointer;
+    }
+    p {
+      color: var(--light);
+      margin-top: auto;
+    }
+  }
+  .right {
+    width: 30%;
+    background: var(--background);
+    color: var(--text);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    overflow: hidden;
+  }
+  .smalHeader {
+    display: none;
+  }
+  .smalFooter {
+    display: none;
+  }
+  @media only screen and (max-width: 1300px) {
+    .left {
+      width: 40%;
+    }
+    .right {
+      width: 60%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .left {
+      width: 30%;
+    }
+    .right {
+      width: 70%;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .left {
+      width: 0%;
+      display: none;
+    }
+    .right {
+      width: 100%;
+    }
+    .smalHeader {
+      display: block;
+      img {
+        width: 300px;
+        margin-bottom: 40px;
+      }
+    }
+    .smalFooter {
+      display: block;
+      margin-top: auto;
+      padding-top: 40px;
+    }
+  }
+}

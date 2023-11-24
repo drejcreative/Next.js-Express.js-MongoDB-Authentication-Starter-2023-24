@@ -1,0 +1,33 @@
+export const AUTH = {
+  authB01: 'User with this',
+  authB02: 'email address doesn\'t exist!',
+  authB03: 'Password reset link',
+  authB04: 'Email for resetting your password has been sent to',
+  authB05: 'It will expire in 15 minutes!',
+  authB06: 'User updating Problem',
+  authB07: 'Something went wrong',
+
+  authB08: 'There is no valid Token',
+  authB09: 'Expired or bad Token, try again later',
+  authB10: 'Password changed sucessfully, you can log in now',
+  authB11: 'Can\'t update password, please try again later',
+  authB12: 'Can\'t find valid user, please try again later',
+
+  authB13: 'Error Getting the user data',
+  authB14: 'User doesn\'t exist',
+  authB15: 'Wrong password',
+  authB16: 'Error login  user. Please try again later!',
+  authB17: 'User with this',
+  authB18: 'email adress already exists!',
+  authB19: 'Account activation link',
+  authB20: 'Email is sent to your email address',
+  authB21: 'Please verify your email address',
+  authB22: 'The link has expired. Please sign up again.',
+  authB23: 'The token is already used',
+  authB24: 'Invalid Token',
+  authB25: 'User with this email already exists!',
+  authB26: 'Email not found!',
+
+  authB27: 'Your request has been sent to our team',
+  authB28: 'We have received your request and we will reply you in shortest posible time',
+}

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox 1`] = `
+<div>
+  <div
+    class="checkbox undefined"
+  >
+    <input
+      name="checkbox"
+      type="checkbox"
+    />
+    <label>
+      test
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Checkbox with empty value 1`] = `
+<div>
+  <div
+    class="checkbox undefined"
+  >
+    <input
+      name="checkbox"
+      type="checkbox"
+    />
+    <label>
+      test
+    </label>
+  </div>
+</div>
+`;

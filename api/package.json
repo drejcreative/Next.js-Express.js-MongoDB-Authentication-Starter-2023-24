@@ -1,0 +1,54 @@
+{
+  "name": "auth_backend",
+  "version": "1.1.0",
+  "main": "auth.js",
+  "author": "Drej Creative",
+  "license": "MIT",
+  "homepage": "",
+  "scripts": {
+    "start": "node -r esm start",
+    "dev": "nodemon -r esm start",
+    "test": "cross-env NODE_ENV=test jest",
+    "test:watch": "cross-env NODE_ENV=test jest --watch",
+    "test:covrage": "cross-env NODE_ENV=test jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "imports": {
+    "#helpers": "./helpers/*",
+    "#config": "./config/*"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.2",
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.13.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "express-validator": "^6.14.0",
+    "google-auth-library": "^7.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.11",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15",
+    "shortid": "^2.2.16",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "cross-env": "^7.0.3",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}

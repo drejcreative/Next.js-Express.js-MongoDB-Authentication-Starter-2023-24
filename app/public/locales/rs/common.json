@@ -1,0 +1,33 @@
+{
+  "language": "Srpskki",
+  "signIn": "Prijavi se",
+  "signUp": "Registruj se",
+  "goToSignup": "Prijava",
+  "goToProtected": "Zasticena stranica",
+  "email": "Email",
+  "password": "Sifra",
+  "submit": "Submit",
+  "forgotPassword": "Zaboravljena sifra",
+  "resetEmailText": "Enter your email and we will send you a link to reset your password",
+  "sendPasswordLink": "Send Reset password link",
+  "newPassword": "Nova Sifra",
+  "retypePassword": "Ponovite sifru",
+  "resetPassword": "Resetujte sifru",
+  "passwordDescription": "Sifra mora da ima 6 karaktera.Ne bi bolo lose da koristite kombinaciju malih i velikih slova, brojeva i specijalnih karaktera.",
+  "goToLogin": "Login",
+  "short": "Suvise kratka!",
+  "name": "Vase ime",
+  "surname": "Vase prezime",
+  "activateAccount": "Aktivorajte vas nalog",
+  "changeTheme": "Promenite temu",
+  "goToAdmin": "ADMIN",
+  "validation": {
+    "email": "Enter valid email",
+    "emailRequired": "Email is required",
+    "lastNameRequired": "Last name is required",
+    "password": "Enter Password",
+    "firstNameRequired": "Name is required",
+    "confirmPasswordError": "Passwords do not match",
+    "termsOfUse": "*You must accept Terms and Conditions"
+  }
+}

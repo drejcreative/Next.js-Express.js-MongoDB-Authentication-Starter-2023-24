@@ -1,0 +1,19 @@
+.language {
+  position: relative;
+  z-index: 10;
+  img {
+    width: 20px;
+    cursor: pointer;
+  }
+  ul {
+    display: none;
+    position: absolute;
+    top: 0px;
+    img {
+      margin-bottom: 5px;
+    }
+  }
+  .show {
+    display: block;
+  }
+}

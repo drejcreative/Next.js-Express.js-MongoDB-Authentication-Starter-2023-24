@@ -1,0 +1,29 @@
+.message {
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 16px;
+  display: flex;
+  .text {
+    margin-right: 10px;
+  }
+  .close {
+    margin-left: auto;
+    padding-left: 20px;
+  }
+  &.succes {
+    border: 1px solid var(--secoundary);
+    color: var(--secoundary);
+    &.full {
+      background: var(--secoundary);
+      color: var(--light);
+    }
+  }
+  &.error {
+    border: 1px solid var(--error);
+    color: var(--error);
+    &.full {
+      background: var(--error);
+      color: var(--light);
+    }
+  }
+}

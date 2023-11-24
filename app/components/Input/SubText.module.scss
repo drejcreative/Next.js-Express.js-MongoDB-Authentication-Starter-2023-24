@@ -1,0 +1,9 @@
+.subText {
+  color: var(--main);
+  font-size: 1rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  &.dark {
+    color: var(--border);
+  }
+}

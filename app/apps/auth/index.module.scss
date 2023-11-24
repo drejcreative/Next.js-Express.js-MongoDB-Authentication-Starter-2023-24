@@ -1,0 +1,21 @@
+.header {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  color: var(--text);
+  font-size: 1.1rem;
+  .right {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    span {
+      cursor: pointer;
+      &:hover {
+        color: var(--contrast);
+      }
+    }
+  }
+  h2 {
+    font-size: 1.6rem;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,14 @@
+.form {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerDivider {
+    padding: 0px 10px;
+    color: var(--border);
+  }
+
+  .checkbox {
+    margin-bottom: 20px;
+  }
+}

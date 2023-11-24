@@ -1,0 +1,24 @@
+.activate {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 40px;
+  p {
+    margin-bottom: 20px;
+  }
+  .imageWrap {
+    display: flex;
+    justify-content: center;
+    img {
+      margin-bottom: 30px;
+      width: 200px;
+      text-align: center;
+    }
+  }
+}
+.center {
+  align-items: center;
+  button {
+    margin-top: 20px;
+  }
+}

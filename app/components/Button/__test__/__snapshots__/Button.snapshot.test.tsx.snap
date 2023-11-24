@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Button 1`] = `
+<div>
+  <button
+    class=" button  
+         
+           "
+    type="submit"
+  >
+    test
+  </button>
+</div>
+`;
+
+exports[`renders Button Primary 1`] = `
+<div>
+  <button
+    class=" button primary 
+         
+           "
+    type="submit"
+  >
+    test
+  </button>
+</div>
+`;
+
+exports[`renders icon 1`] = `
+<div>
+  <button
+    class=" button  
+         
+           "
+    type="submit"
+  >
+    <span
+      class="icon"
+    >
+      <span>
+        Icon
+      </span>
+    </span>
+    test
+  </button>
+</div>
+`;
+
+exports[`renders loader 1`] = `
+<div>
+  <button
+    class=" button  
+         
+           "
+    type="submit"
+  >
+    <div
+      class="loader small "
+    />
+    test
+  </button>
+</div>
+`;

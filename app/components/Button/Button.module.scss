@@ -1,0 +1,74 @@
+.button {
+  padding: 11px 20px;
+  border-radius: 15px;
+  border: 1px solid var(--border);
+  color: var(--border);
+  display: inline-block;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+
+  // Loader
+  div {
+    margin-right: 5px;
+  }
+
+  &.primary {
+    background: var(--main);
+    border: 1px solid var(--main);
+    color: var(--light);
+    &.thin {
+      color: var(--main);
+    }
+  }
+  &.secoundary {
+    background: var(--contrast);
+    border: 1px solid var(--contrast);
+    color: var(--main);
+    &.thin {
+      color: var(--contrast);
+    }
+  }
+  &.terniary {
+    background: var(--focus);
+    border: 1px solid var(--focus);
+    color: var(--light);
+    &.thin {
+      color: var(--focus);
+    }
+  }
+  &.error {
+    background: var(--error);
+    border: 1px solid var(--error);
+    color: var(--light);
+    &.thin {
+      color: var(--error);
+    }
+  }
+  &.disabled {
+    background: var(--border);
+    border: 1px solid var(--border);
+    color: var(--disabled);
+    cursor: not-allowed;
+    &.thin {
+      color: var(--border);
+      background: rgba(164, 190, 195, 0.4);
+    }
+  }
+  &.thin {
+    background: none;
+  }
+
+  &.small {
+    padding: 4px 8px;
+    border-radius: 4px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+}
